@@ -1,0 +1,81 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: initial;
+	background-image: linear-gradient(to right,salmon,#65dfc9);
+
+
+}
+
+.row .card:hover{
+	box-shadow: 2px 2px 2px rgba(0,0,0,0.4);
+	transform: scale(1.02);
+}
+#order a button {
+	border-radius: 100px;
+	border: 2px solid salmon;
+}
+
+
+section, #menu{
+	margin-top: ;
+	background-color: rgba(255,255,255,0.2);
+	border: 2px solid rgba(255,255,255,0.3);
+	border-radius: 30px;
+
+	 }
+.card{
+	background-color: rgba(255,255,255,0.2);
+	border: 4px solid transparent;
+	background-clip: padding-box;
+	line-height: 1.5;
+
+	
+}	 
+nav, #navtop	{
+	background-color: transparent;
+	
+}
+
+.modal-content{
+	
+	margin-top: 100px;
+	background-color: rgba(255,255,255,0.9);
+	border: 2px solid rgba(255,255,255,0.3);
+	border-radius: 30px;
+	
+	
+}
+.jumbotron {
+	
+	background-color: transparent;
+
+}
+#bungkus {
+	background-color: rgba(255,255,255,0.3);
+	border: 2px solid rgba(255,255,255,0.3);
+	border-radius: 30px;
+	
+}
+.btn{
+	background-color: rgba(255,255,255,0.3);
+	border: 2px solid #65dfc9;
+	border-radius: 30px;
+	color: salmon;
+	
+}
+
+.card-img-top {
+	padding: 10px;
+}
+
+footer,#About{
+	margin: auto;
+	background-color: rgba(255,255,255,0.3);
+	border: 2px solid rgba(255,255,255,0.3);
+	border-radius: 30px;
+}
